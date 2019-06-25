@@ -1,4 +1,15 @@
 .landing-container {
   height: 100vh;
   background-color: #fcfaa3;
+  text-align: center;
+
+  .side-text {
+    padding-top: 100px;
+    font-size: 2em;
+  }
+
+  .title {
+    font-size: 5em;
+  }
+
 }

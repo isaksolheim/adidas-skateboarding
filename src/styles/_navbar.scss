@@ -1,0 +1,38 @@
+.navbar-container {
+  .socials {
+    float: right;
+  }
+
+  .links {
+    float: left;
+  }
+
+  #active {
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+  }
+
+  .nav-item {
+    color: #333;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.3s all;
+  }
+
+  .nav-item:hover {
+    color: black;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.05);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.05);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
+
+  }
+}
