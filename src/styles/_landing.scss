@@ -3,6 +3,13 @@
   background-color: #fcfaa3;
   text-align: center;
 
+  @include small {
+    .landing-text {
+      .title {
+        font-size: 10px;
+      }
+    }
+  }
 
   .landing-text {
     position: absolute;
