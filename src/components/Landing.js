@@ -73,6 +73,33 @@ const Landing = () => (
               </div>
             </div>
           </div>
+          <div className="section">
+            <div className="skater1">
+              <div className="content">
+                <div className="skater">
+                  <Fade left>
+                    <img src={'./images/miles.png'} alt="gustav"/>
+                  </Fade>
+                  <Fade>
+                    <span className="dot" />
+                  </Fade>
+                </div>
+                <Fade right>
+                  <div className="text-box">
+                    <div className="number">03</div>
+                    <div className="name">Miles Silvas</div>
+                    <div className="text">
+                      Miles Silvas is deceiving. He makes the hardest tricks look easy and does them in no time flat, 
+                      which is a dangerous precedent to set. His style is oh-so-easy on the eyes, inspiration to get 
+                      out there and skate.
+                      <br />
+                      <b>Read Full Bio</b>
+                    </div>
+                  </div>
+                </Fade>
+              </div>
+            </div>
+          </div>
         </ReactFullpage.Wrapper>
       );
     }}
