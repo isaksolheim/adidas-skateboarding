@@ -10,9 +10,9 @@ function Navbar() {
           <div className="nav-item">Videoes</div>
         </div>
         <div className="socials">
-          <div className="nav-item"><i class="fab fa-facebook-f"></i></div>
-          <div className="nav-item"><i class="fab fa-instagram"></i></div>
-          <div className="nav-item"><i class="fab fa-youtube"></i></div>
+          <div className="nav-item"><i className="fab fa-facebook-f"></i></div>
+          <div className="nav-item"><i className="fab fa-instagram"></i></div>
+          <div className="nav-item"><i className="fab fa-youtube"></i></div>
         </div>
       </div>
     </div>
