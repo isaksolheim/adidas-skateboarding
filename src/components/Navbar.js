@@ -6,8 +6,8 @@ function Navbar() {
       <div className="nav">
         <div className="links">
           <div className="nav-item" id="active">Team</div>
-          <div className="nav-item">News</div>
-          <div className="nav-item">Videoes</div>
+          <div className="nav-item desktop">News</div>
+          <div className="nav-item desktop">Videoes</div>
         </div>
         <div className="socials">
           <div className="nav-item"><i className="fab fa-facebook-f"></i></div>

@@ -1,4 +1,9 @@
 .navbar-container {
+  @include small {
+    .nav-item.desktop {
+      display: none;
+    }
+  }
   .socials {
     float: right;
   }
